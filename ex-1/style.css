@@ -1,1 +1,46 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.head-title {
+    background-color: grey;
+    padding: 5%;
+    font-size: 200%;
+}
+
+.container-chiangmai {
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 5%;
+    margin: 5%;
+}
+
+#tire-list {
+    margin: 3%;
+}
+
+.name-cafe {
+    color: red;
+}
+
+.name-cafe::first-letter{
+    color: crimson;
+    font-size: 220%;
+}
+
+.location-container {
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 5%;
+    margin: 5%;
+}
+
+.location-cafe {
+    color: red;
+}
+
+.location-cafe::first-letter {
+    color: crimson;
+    font-size: 220%;
+}
